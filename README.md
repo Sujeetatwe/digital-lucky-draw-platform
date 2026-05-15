@@ -1,59 +1,310 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎯 Lucky Draw Management System
+
+A modern full-stack Lucky Draw Management Platform built with Laravel, designed for event organizers, businesses, and campaigns to manage participants, generate winners, track gifts, and automate lucky draw workflows.
+
+---
+
+# 🚀 Project Highlights
+
+- Digital Lucky Draw System
+- Participant Management
+- Winner Selection Automation
+- Gift Distribution Tracking
+- Admin Dashboard
+- User Management System
+- Real-Time Dashboard Statistics
+- Responsive Modern UI
+
+---
+
+# 🖼️ Project Screenshots
+
+## 📊 Dashboard Statistics
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="screenshots/Dashboard%20stats.png" width="800"/>
 </p>
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 👥 User Management
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  <img src="screenshots/User%20Management.png" width="800"/>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🎁 Winning Gift List
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+<p align="center">
+  <img src="screenshots/Winning%20Gift%20List.png" width="800"/>
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 📋 Participant List
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<p align="center">
+  <img src="screenshots/Participant%20list.png" width="800"/>
+</p>
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🏆 Winner List
 
-## Contributing
+<p align="center">
+  <img src="screenshots/Winner%20list.png" width="800"/>
+</p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## ✏️ Participant Edit Module
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<p align="center">
+  <img src="screenshots/Participant%20Edit.png" width="800"/>
+</p>
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# 🔎 Project Overview
 
-## License
+This platform is designed to simplify lucky draw event management through a centralized digital system.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The application supports:
+
+- Participant registration & tracking
+- Automated winner generation
+- Gift allocation management
+- Admin dashboard analytics
+- User & role management
+- Event-based lucky draw workflows
+
+---
+
+# ✨ Key Features
+
+## 🎯 Lucky Draw Features
+- Random Winner Selection
+- Gift Allocation System
+- Winner Tracking
+- Participant Management
+- Event-Based Draw Management
+
+## 👨‍💼 Admin Features
+- Dashboard Analytics
+- User Management
+- Participant Edit System
+- Draw History Tracking
+- Winner Management
+
+## 📊 Management Features
+- Dashboard Statistics
+- Real-Time Data Tables
+- Search & Filtering
+- CRUD Operations
+- Responsive Data Management
+
+---
+
+# 🛠️ Technology Stack
+
+## Backend
+- Laravel
+- PHP 8.2+
+- REST APIs
+
+## Frontend
+- Blade Templates
+- Tailwind CSS
+- JavaScript
+- Axios
+- Vite
+
+## Database
+- MySQL
+
+## Authentication
+- Laravel Authentication
+
+---
+
+# 📦 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Sujeetatwe/digital-lucky-draw-platform.git
+cd digital-lucky-draw-platform
+```
+
+---
+
+## Install Dependencies
+
+```bash
+composer install
+npm install
+```
+
+---
+
+## Configure Environment
+
+```bash
+cp .env.example .env
+```
+
+Update database credentials:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=lucky_draw
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+## Run Database Migrations
+
+```bash
+php artisan migrate --seed
+```
+
+---
+
+## Build Frontend Assets
+
+```bash
+npm run build
+```
+
+---
+
+## Start Development Server
+
+```bash
+php artisan serve
+```
+
+---
+
+# 🌐 Application Access
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+# 📊 Core Modules
+
+- Participant Management
+- Winner Selection System
+- Gift Distribution
+- User Management
+- Dashboard Analytics
+- Reporting System
+
+---
+
+# 🔐 Security Features
+
+- Authentication System
+- Role-Based Access
+- Secure Form Validation
+- Protected Admin Routes
+- Session Management
+
+---
+
+# 📁 Project Structure
+
+```text
+app/                    → Controllers & Models
+resources/views/        → Blade Templates
+routes/                 → Web & API Routes
+database/               → Migrations & Seeders
+public/                 → Public Assets
+storage/                → Uploaded Files
+tests/                  → PHPUnit Tests
+```
+
+---
+
+# 📈 System Workflow
+
+```text
+Participant Registration
+          ↓
+Gift Assignment
+          ↓
+Lucky Draw Execution
+          ↓
+Winner Selection
+          ↓
+Result Management
+          ↓
+Dashboard Analytics
+```
+
+---
+
+# 🧪 Testing
+
+Run Laravel tests:
+
+```bash
+php artisan test
+```
+
+---
+
+# 🚀 Deployment Notes
+
+Optimize application before deployment:
+
+```bash
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+npm run build
+```
+
+Ensure permissions:
+
+```text
+storage/
+bootstrap/cache/
+```
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+## Sujeet Atwe
+
+Full Stack & AI Developer focused on scalable enterprise systems, business automation platforms, and modern web applications.
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
